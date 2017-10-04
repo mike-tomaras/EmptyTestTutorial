@@ -1,0 +1,14 @@
+﻿1. As a user, when navigating to the home page, I want to see a list of users
+	--Acceptace criteria--
+	* I am on the main page
+	* I can see a table of users
+	* The table is populated
+	* The table has values for all columns
+	* The table is constrained to show the first 20 users	
+
+2. As a user, when looking at the users table, I want to save a user in a cookie
+	This would be an action for modifying and saving a user in the DB. Instead
+	we will not modify them and save them in a cookie. This story is to demonstrate 
+	what happens when we don't have specific code output. Can't e2e this either.
+	--Acceptace criteria--
+	* I can save a user
